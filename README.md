@@ -1,1 +1,1 @@
-# 42-Piscine
+This repository documents my coding journey and projects from Bangkok42's Piscine Course.
