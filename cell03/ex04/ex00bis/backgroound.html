@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Backgroound3.0</title>
+</head>
+<body>
+
+<button id="colorButton">Click me!</button>
+
+<script>
+    $(document).ready(function() {
+        $('#colorButton').click(function() {
+            var randomRed = Math.floor(Math.random() * 252);
+            var randomGreen = Math.floor(Math.random() * 252);
+            var randomBlue = Math.floor(Math.random() * 252);
+
+            $('body').css('background-color', 'rgb(' + randomRed + ',' + randomGreen + ',' + randomBlue + ')');
+        });
+    });
+</script>
+
+</body>
+</html>
